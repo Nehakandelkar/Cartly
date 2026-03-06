@@ -1,0 +1,167 @@
+[
+  {
+    "platform": "BLINKIT",
+    "product_id": "12872",
+    "name": "Amul Gold Full Cream Milk",
+    "brand": "Amul",
+    "category": "milk",
+    "price": 35,
+    "quantity_ml": 500,
+    "delivery_time_min": 10,
+    "in_stock": true,
+    "rating": 4.66
+  },
+  {
+    "platform": "BLINKIT",
+    "product_id": "12873",
+    "name": "Amul Taaza Toned Milk",
+    "brand": "Amul",
+    "category": "milk",
+    "price": 29,
+    "quantity_ml": 500,
+    "delivery_time_min": 12,
+    "in_stock": true,
+    "rating": 4.30
+  },
+  {
+    "platform": "BLINKIT",
+    "product_id": "12874",
+    "name": "Mother Dairy Full Cream Milk",
+    "brand": "Mother Dairy",
+    "category": "milk",
+    "price": 34,
+    "quantity_ml": 500,
+    "delivery_time_min": 8,
+    "in_stock": true,
+    "rating": 4.50
+  },
+
+  {
+    "platform": "BLINKIT",
+    "product_id": "b_curds_001",
+    "name": "Amul Fresh Curd",
+    "brand": "Amul",
+    "category": "curd",
+    "price": 35,
+    "quantity_g": 400,
+    "delivery_time_min": 9,
+    "in_stock": true,
+    "rating": 4.40
+  },
+
+  {
+    "platform": "BLINKIT",
+    "product_id": "b_bread_001",
+    "name": "Britannia Brown Bread",
+    "brand": "Britannia",
+    "category": "bread",
+    "price": 40,
+    "quantity_g": 400,
+    "delivery_time_min": 7,
+    "in_stock": true,
+    "rating": 4.10
+  },
+
+  {
+    "platform": "BLINKIT",
+    "product_id": "b_eggs_001",
+    "name": "Farm Fresh Eggs",
+    "brand": "Generic",
+    "category": "eggs",
+    "price": 78,
+    "quantity_units": 12,
+    "delivery_time_min": 11,
+    "in_stock": true,
+    "rating": 4.20
+  },
+
+  {
+    "platform": "BLINKIT",
+    "product_id": "b_rice_001",
+    "name": "India Gate Basmati Rice",
+    "brand": "India Gate",
+    "category": "rice",
+    "price": 180,
+    "quantity_g": 1000,
+    "delivery_time_min": 15,
+    "in_stock": true,
+    "rating": 4.40
+  },
+  {
+    "platform": "BLINKIT",
+    "product_id": "b_rice_002",
+    "name": "Daawat Rozana Rice",
+    "brand": "Daawat",
+    "category": "rice",
+    "price": 95,
+    "quantity_g": 1000,
+    "delivery_time_min": 18,
+    "in_stock": true,
+    "rating": 4.20
+  },
+
+  {
+    "platform": "BLINKIT",
+    "product_id": "b_oil_001",
+    "name": "Fortune Sunflower Oil",
+    "brand": "Fortune",
+    "category": "oil",
+    "price": 145,
+    "quantity_ml": 1000,
+    "delivery_time_min": 20,
+    "in_stock": true,
+    "rating": 4.30
+  },
+
+  {
+    "platform": "BLINKIT",
+    "product_id": "b_sugar_001",
+    "name": "Trust Refined Sugar",
+    "brand": "Trust",
+    "category": "sugar",
+    "price": 48,
+    "quantity_g": 1000,
+    "delivery_time_min": 16,
+    "in_stock": true,
+    "rating": 4.00
+  },
+
+  {
+    "platform": "BLINKIT",
+    "product_id": "b_salt_001",
+    "name": "Tata Salt Iodized",
+    "brand": "Tata",
+    "category": "salt",
+    "price": 28,
+    "quantity_g": 1000,
+    "delivery_time_min": 14,
+    "in_stock": true,
+    "rating": 4.50
+  },
+
+  {
+    "platform": "BLINKIT",
+    "product_id": "b_veg_001",
+    "name": "Potato",
+    "brand": "Generic",
+    "category": "vegetables",
+    "price": 32,
+    "quantity_g": 1000,
+    "delivery_time_min": 10,
+    "in_stock": true,
+    "rating": 4.00
+  },
+
+  {
+    "platform": "BLINKIT",
+    "product_id": "b_fruit_001",
+    "name": "Banana Robusta",
+    "brand": "Generic",
+    "category": "fruits",
+    "price": 48,
+    "quantity_units": 6,
+    "delivery_time_min": 9,
+    "in_stock": true,
+    "rating": 4.10
+  }
+]

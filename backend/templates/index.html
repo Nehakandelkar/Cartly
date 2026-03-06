@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Price Aggregator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+    }
+    input {
+      padding: 8px;
+      width: 250px;
+    }
+    button {
+      padding: 8px 16px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 25px;
+      padding: 15px;
+      border: 1px solid #ddd;
+      width: fit-content;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Cheapest Product Finder</h2>
+
+  <input id="query" placeholder="Enter product (milk, rice, curd)" />
+  <button onclick="search()">Search</button>
+
+  <!-- Result will appear here -->
+  <div id="result"></div>
+
+  <script>
+    async function search() {
+      const query = document.getElementById("query").value.trim();
+      const resultDiv = document.getElementById("result");
+
+      if (!query) {
+        resultDiv.innerHTML = "<p style='color:red'>Please enter a product name</p>";
+        return;
+      }
+
+      resultDiv.innerHTML = "<p>Loading...</p>";
+
+      try {
+        const res = await fetch(`/compare?query=${query}`);
+        const data = await res.json();
+
+        if (data.error) {
+          resultDiv.innerHTML = `<p style="color:red">${data.error}</p>`;
+          return;
+        }
+
+        resultDiv.innerHTML = `
+          <h3>Cheapest Result</h3>
+          <p><b>Platform:</b> ${data.platform}</p>
+          <p><b>Product:</b> ${data.name}</p>
+          <p><b>Quantity:</b> ${data.quantity}</p>
+          <p><b>Price:</b> ₹${data.price}</p>
+        `;
+      } catch (err) {
+        resultDiv.innerHTML = "<p style='color:red'>Something went wrong</p>";
+      }
+    }
+  </script>
+
+</body>
+</html>
