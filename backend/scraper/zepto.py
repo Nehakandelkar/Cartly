@@ -15,7 +15,7 @@ def scrape_zepto(query: str):
 
         # ---- LOAD PAGE ----
         page.goto(
-            f"https://www.zepto.in/search?query={query}",
+            f"https://www.zeptonow.com/search?query={query}",
             timeout=60000
         )
 
