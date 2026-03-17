@@ -1,6 +1,6 @@
 """
 Zepto Provider Package
 """
-from .zepto_provider import ZeptoProvider, load_response_from_file
+from .zepto_provider import get_zepto_price
 
-__all__ = ["ZeptoProvider", "load_response_from_file"]
+__all__ = ["get_zepto_price"]

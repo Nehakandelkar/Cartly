@@ -1,6 +1,6 @@
 """
 Instamart Provider Package
 """
-from .instamart_provider import InstamartProvider, load_response_from_file
+from .instamart_provider import get_instamart_price
 
-__all__ = ["InstamartProvider", "load_response_from_file"]
+__all__ = ["get_instamart_price"]
